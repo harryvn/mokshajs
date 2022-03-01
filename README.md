@@ -7,7 +7,9 @@ Compatible with Linux, Mac, Windows terminals
 # Usage
 
 - The Entry Point
+
   $ npm install -g pm2 (global)
+
   $ npm install (local)
 
 Well! If you reached this far, by this time you are all set to ignite the tests.
