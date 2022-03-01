@@ -8,6 +8,8 @@ Compatible with Linux, Mac, Windows terminals
 
 - The Entry Point
 
+  $ cd src
+
   $ npm install -g pm2 (global)
 
   $ npm install (local)
