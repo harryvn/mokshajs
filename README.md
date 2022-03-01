@@ -19,8 +19,13 @@ Well! If you reached this far, by this time you are all set to ignite the tests.
 
   $ pm2 start
 
+- Wait!
+  -- What did I just do?
+
+  => open your favourite browser and head over to 'http://localhost:4444'
+
 - Continue
-  -- to execute the sample tests
+  -- To execute the sample tests
 
   $ npm test
 
@@ -30,6 +35,6 @@ Well! If you reached this far, by this time you are all set to ignite the tests.
   $ pm2 stop ecosystem.config.js
 
 - End
-  -- Call it a day!
+  -- Call it a Day!
 
   $ pm2 delete ecosystem.config.js
