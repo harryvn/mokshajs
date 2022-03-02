@@ -8,6 +8,8 @@ Compatible with Linux, Mac, Windows terminals
 
 - The Entry Point
 
+  => cd e2e/src
+
   $ npm install -g pm2 (global)
 
   $ npm install (local)
@@ -16,6 +18,8 @@ Well! If you reached this far, by this time you are all set to ignite the tests.
 
 - Begin
   -- The key command (this command will start the standalone selenium grid as a background process)
+
+  => cd e2e/src
 
   $ pm2 start ecosystem.config.js
 
