@@ -31,7 +31,9 @@ Well! If you reached this far, by this time you are all set to ignite the tests.
 
 - Sneak Peek
   -- Bravo! the execution completed
+
   => logs are here "src/logs"
+
   => reports are here "src/reports"
 
 - Relax
