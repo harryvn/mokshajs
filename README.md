@@ -4,7 +4,7 @@
 
 > **A bare minimum automation framework that can be used as a starter kit.**
 
-Compatible Terminals
+Compatible with default terminals on:
 
 - Linux
 - Mac
@@ -17,7 +17,13 @@ Compatible Terminals
 > The Entry Point
 
         cd e2e/src
+
+---
+
         npm install -g pm2
+
+---
+
         npm install
 
 ##### **Begin**
@@ -27,6 +33,9 @@ Compatible Terminals
 > The key command (this command will start the standalone selenium grid as a background process)
 
         cd e2e/src
+
+---
+
         pm2 start ecosystem.config.js
 
 ##### Wait!
