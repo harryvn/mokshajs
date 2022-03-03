@@ -1,51 +1,72 @@
-# mokshajs
+# **mokshajs**
 
-A bare minimum automation framework that can be used as a starter kit.
+=======================================================================
 
-Compatible with Linux, Mac, Windows terminals
+> **A bare minimum automation framework that can be used as a starter kit.**
 
-# Usage
+Compatible Terminals
 
-- The Entry Point
+- Linux
+- Mac
+- Windows
 
-  => cd e2e/src
+### **Usage**
 
-  $ npm install -g pm2 (global)
+=======================================================================
 
-  $ npm install (local)
+> The Entry Point
 
-Well! If you reached this far, by this time you are all set to ignite the tests.
+        cd e2e/src
+        npm install -g pm2
+        npm install
 
-- Begin
-  -- The key command (this command will start the standalone selenium grid as a background process)
+##### **Begin**
 
-  => cd e2e/src
+=======================================================================
 
-  $ pm2 start ecosystem.config.js
+> The key command (this command will start the standalone selenium grid as a background process)
 
-- Wait!
-  -- What did I just do?
+        cd e2e/src
+        pm2 start ecosystem.config.js
 
-  => open your favourite browser and head over to 'http://localhost:4444'
+##### Wait!
 
-- Continue
-  -- To execute the sample tests
+=======================================================================
 
-  $ npm test
+> What did I just do?
+> open your favourite browser and head over to 'http://localhost:4444'
 
-- Sneak Peek
-  -- Bravo! the execution completed
+### **_Well! If you reached this far, you are all set to ignite the tests._**
 
-  => logs are here "src/logs"
+##### Continue
 
-  => reports are here "src/reports"
+=======================================================================
 
-- Relax
-  -- Bored with repeated tests (stop the standalone selenium grid background process)
+> To execute the sample tests
 
-  $ pm2 stop ecosystem.config.js
+        npm test
 
-- End
-  -- Call it a Day!
+##### Sneak Peek
 
-  $ pm2 delete ecosystem.config.js
+=======================================================================
+
+> Bravo! the execution completed
+
+        logs are here "src/logs"
+        reports are here "src/reports"
+
+##### Relax
+
+=======================================================================
+
+> Bored with repeated tests (stop the standalone selenium grid background process)
+
+        pm2 stop ecosystem.config.js
+
+##### End
+
+=======================================================================
+
+> Call it a Day!
+
+        pm2 delete ecosystem.config.js
