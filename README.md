@@ -32,10 +32,6 @@ Compatible with default terminals on:
 
 > The key command (this command will start the standalone selenium grid as a background process)
 
-        cd e2e/src
-
----
-
         pm2 start ecosystem.config.js
 
 ##### Wait!
